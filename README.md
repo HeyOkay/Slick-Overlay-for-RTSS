@@ -39,9 +39,9 @@ A clean, frosted-glass performance overlay for **RivaTuner Statistics Server (RT
 ## What it shows
 
 - **FPS:** current, average, 1% low, 0.1% low
-- **GPU:** name, load, core clock, memory clock, temperature, VRAM usage
+- **GPU:** name, load, core clock, power draw, temperature, VRAM usage
 - **CPU:** name, load, clock, package power, temperature, RAM usage
-- **Frametime graph** (0–40 ms) and the graphics API in use
+- **Frametime graph** (0–40 ms) with the current value, and the graphics API in use
 - **Driver version**, filled in automatically
 
 All values come from RTSS's built-in hardware monitoring (HAL). MSI Afterburner and HWiNFO are not required.

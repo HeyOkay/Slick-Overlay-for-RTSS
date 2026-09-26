@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] - 2026-09-26
+
+- GPU field changed from memory clock to GPU power draw (bolt icon, watts), matching the CPU power field
+- Frametime label now also shows the current frametime value in ms, next to the graph and API
+- Single Line layout widened slightly to fit the new frametime value without crowding the graph
+
 ## [1.0.0] - 2026-09-26
 
 First release.

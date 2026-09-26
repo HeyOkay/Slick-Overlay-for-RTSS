@@ -29,12 +29,12 @@ Formula=
 Provider=HAL
 ID=GPU1 clock
 [Source2]
-Name=GPU1 memory clock
-Units=MHz
+Name=GPU1 power
+Units=W
 Format=%.0f
 Formula=
 Provider=HAL
-ID=GPU1 memory clock
+ID=GPU1 power
 [Source3]
 Name=GPU1 temperature
 Units=°C
@@ -294,8 +294,8 @@ ExtentOrigin=3
 Size=70
 TextColor=FFFFFFFF
 [Layer22]
-Name=GPU - Icon - Memory clock
-Text=<I=24,24,80,732,24,24>
+Name=GPU - Icon - Power
+Text=<I=24,24,176,732,24,24>
 PositionX=494
 PositionY=48
 ExtentX=24
@@ -303,8 +303,8 @@ ExtentY=24
 ExtentOrigin=0
 TextColor=FFD6C6A1
 [Layer23]
-Name=GPU - Value - Memory clock
-Text=%GPU1 memory clock% MHz
+Name=GPU - Value - Power
+Text=%GPU1 power% W
 PositionX=525
 PositionY=49
 ExtentX=123
@@ -466,7 +466,7 @@ Size=70
 TextColor=FFFFFFFF
 [Layer40]
 Name=FT - Label
-Text=FRAMETIME
+Text=FRAMETIME: <FT> ms
 PositionX=960
 PositionY=18
 ExtentX=120
