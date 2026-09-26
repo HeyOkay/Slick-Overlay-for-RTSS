@@ -1,0 +1,516 @@
+[Master]
+Implementation=2
+FontFace=Adderley Bold
+FontHeight=-28
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=Slick Overlay - Compact 2x2
+RefreshPeriod=250
+LockUserSettings=1
+EmbeddedImage=SlickOverlay_Compact_2x2.png
+PingAddr=127.0.0.1
+[General]
+Sources=10
+Tables=0
+Layers=45
+[Source0]
+Name=GPU1 usage
+Units=%
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source1]
+Name=GPU1 clock
+Units=MHz
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 clock
+[Source2]
+Name=GPU1 memory clock
+Units=MHz
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 memory clock
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source4]
+Name=GPU1 memory usage
+Units=MB
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 memory usage
+[Source5]
+Name=CPU usage
+Units=%
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source6]
+Name=CPU clock
+Units=MHz
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU clock
+[Source7]
+Name=CPU power
+Units=W
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU power
+[Source8]
+Name=CPU temperature
+Units=°C
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source9]
+Name=RAM usage
+Units=MB
+Format=%.0f
+Formula=
+Provider=HAL
+ID=RAM usage
+[Layer0]
+Name=BG - Frost Base
+Text=<I=644,234,0,0,644,234>
+PositionX=0
+PositionY=0
+ExtentX=644
+ExtentY=234
+ExtentOrigin=0
+TextColor=FF000000
+[Layer1]
+Name=BG - Frost Sheen
+Text=<I=644,234,0,234,644,234>
+PositionX=0
+PositionY=0
+ExtentX=644
+ExtentY=234
+ExtentOrigin=0
+TextColor=FFFFFFFF
+[Layer2]
+Name=BG - Divider FPS | Stats
+Text=<I=1,88,0,702,1,88>
+PositionX=199
+PositionY=18
+ExtentX=1
+ExtentY=88
+ExtentOrigin=0
+TextColor=3CD6C6A1
+[Layer3]
+Name=BG - Divider Left | Right top
+Text=<I=1,88,0,702,1,88>
+PositionX=325
+PositionY=18
+ExtentX=1
+ExtentY=88
+ExtentOrigin=0
+TextColor=3CD6C6A1
+[Layer4]
+Name=BG - Divider Left | Right bottom
+Text=<I=1,88,0,702,1,88>
+PositionX=325
+PositionY=128
+ExtentX=1
+ExtentY=88
+ExtentOrigin=0
+TextColor=3CD6C6A1
+[Layer5]
+Name=BG - Divider Row left
+Text=<I=296,1,0,792,296,1>
+PositionX=18
+PositionY=117
+ExtentX=296
+ExtentY=1
+ExtentOrigin=0
+TextColor=3CD6C6A1
+[Layer6]
+Name=BG - Divider Row right
+Text=<I=290,1,0,792,290,1>
+PositionX=336
+PositionY=117
+ExtentX=290
+ExtentY=1
+ExtentOrigin=0
+TextColor=3CD6C6A1
+[Layer7]
+Name=Header - FPS
+Text=FPS
+PositionX=18
+PositionY=18
+ExtentX=170
+ExtentY=26
+ExtentOrigin=4
+Size=70
+TextColor=FFD6C6A1
+[Layer8]
+Name=FPS - Current
+Text=<FR>
+PositionX=18
+PositionY=44
+ExtentX=170
+ExtentY=66
+ExtentOrigin=4
+Size=200
+TextColor=FFFFFFFF
+[Layer9]
+Name=FPS - AVG - Label
+Text=AVG
+PositionX=210
+PositionY=18
+ExtentX=60
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFD6C6A1
+[Layer10]
+Name=FPS - AVG - Value
+Text=<FRAVG>
+PositionX=254
+PositionY=18
+ExtentX=60
+ExtentY=26
+ExtentOrigin=5
+Size=70
+TextColor=FFFFFFFF
+[Layer11]
+Name=FPS - 1% Low - Label
+Text=1%
+PositionX=210
+PositionY=49
+ExtentX=60
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFD6C6A1
+[Layer12]
+Name=FPS - 1% Low - Value
+Text=%Framerate 1% Low%
+PositionX=254
+PositionY=49
+ExtentX=60
+ExtentY=26
+ExtentOrigin=5
+Size=70
+TextColor=FFFFFFFF
+[Layer13]
+Name=FPS - 0.1% Low - Label
+Text=0.1%
+PositionX=210
+PositionY=80
+ExtentX=60
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFD6C6A1
+[Layer14]
+Name=FPS - 0.1% Low - Value
+Text=%Framerate 0.1% Low%
+PositionX=254
+PositionY=80
+ExtentX=60
+ExtentY=26
+ExtentOrigin=5
+Size=70
+TextColor=FFFFFFFF
+[Layer15]
+Name=GPU - Icon - Name
+Text=<I=24,24,8,702,24,24>
+PositionX=336
+PositionY=16
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer16]
+Name=GPU - Value - Name
+Text=%GPU%
+PositionX=367
+PositionY=18
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFD6C6A1
+[Layer17]
+Name=GPU - Icon - Usage
+Text=<I=24,24,32,702,24,24>
+PositionX=494
+PositionY=19
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer18]
+Name=GPU - Value - Usage
+Text=%GPU1 usage% %
+PositionX=525
+PositionY=18
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer19]
+Name=GPU - Icon - Clock
+Text=<I=24,24,56,702,24,24>
+PositionX=336
+PositionY=48
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer20]
+Name=GPU - Value - Clock
+Text=%GPU1 clock% MHz
+PositionX=367
+PositionY=49
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer21]
+Name=GPU - Icon - Memory clock
+Text=<I=24,24,80,702,24,24>
+PositionX=494
+PositionY=48
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer22]
+Name=GPU - Value - Memory clock
+Text=%GPU1 memory clock% MHz
+PositionX=525
+PositionY=49
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer23]
+Name=GPU - Icon - Temperature
+Text=<I=24,24,104,702,24,24>
+PositionX=336
+PositionY=79
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer24]
+Name=GPU - Value - Temperature
+Text=%GPU1 temperature% °C
+PositionX=367
+PositionY=80
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer25]
+Name=GPU - Icon - Memory
+Text=<I=24,24,128,702,24,24>
+PositionX=494
+PositionY=79
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer26]
+Name=GPU - Value - Memory
+Text=%GPU1 memory usage% MB
+PositionX=525
+PositionY=80
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer27]
+Name=CPU - Icon - Name
+Text=<I=24,24,152,702,24,24>
+PositionX=336
+PositionY=127
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer28]
+Name=CPU - Value - Name
+Text=%CPUShort%
+PositionX=367
+PositionY=128
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFD6C6A1
+[Layer29]
+Name=CPU - Icon - Usage
+Text=<I=24,24,32,702,24,24>
+PositionX=494
+PositionY=129
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer30]
+Name=CPU - Value - Usage
+Text=%CPU usage% %
+PositionX=525
+PositionY=128
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer31]
+Name=CPU - Icon - Clock
+Text=<I=24,24,56,702,24,24>
+PositionX=336
+PositionY=158
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer32]
+Name=CPU - Value - Clock
+Text=%CPU clock% MHz
+PositionX=367
+PositionY=159
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer33]
+Name=CPU - Icon - Power
+Text=<I=24,24,176,702,24,24>
+PositionX=494
+PositionY=158
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer34]
+Name=CPU - Value - Power
+Text=%CPU power% W
+PositionX=525
+PositionY=159
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer35]
+Name=CPU - Icon - Temperature
+Text=<I=24,24,104,702,24,24>
+PositionX=336
+PositionY=189
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer36]
+Name=CPU - Value - Temperature
+Text=%CPU temperature% °C
+PositionX=367
+PositionY=190
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer37]
+Name=CPU - Icon - RAM
+Text=<I=24,24,128,702,24,24>
+PositionX=494
+PositionY=189
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer38]
+Name=CPU - Value - RAM
+Text=%RAM usage% MB
+PositionX=525
+PositionY=190
+ExtentX=123
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFFFFFFF
+[Layer39]
+Name=FT - Label
+Text=FRAMETIME
+PositionX=18
+PositionY=128
+ExtentX=140
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFD6C6A1
+[Layer40]
+Name=FT - API
+Text=<API>
+PositionX=174
+PositionY=128
+ExtentX=140
+ExtentY=26
+ExtentOrigin=5
+Size=70
+TextColor=FFD6C6A1
+[Layer41]
+Name=FT - Graph
+Text=<G=Frametime,296,22,1,0,40,0>
+PositionX=18
+PositionY=161
+ExtentX=296
+ExtentY=24
+ExtentOrigin=3
+Size=10
+TextColor=FFFFFFFF
+[Layer42]
+Name=Footer - Driver Label
+Text=Driver
+PositionX=18
+PositionY=190
+ExtentX=120
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFD6C6A1
+[Layer43]
+Name=Footer - Driver Icon
+Text=<I=24,24,200,702,24,24>
+PositionX=181
+PositionY=189
+ExtentX=24
+ExtentY=24
+ExtentOrigin=0
+TextColor=FFD6C6A1
+[Layer44]
+Name=Footer - Driver
+Text=Nvidia %Driver%
+PositionX=212
+PositionY=190
+ExtentX=106
+ExtentY=26
+ExtentOrigin=3
+Size=70
+TextColor=FFD6C6A1

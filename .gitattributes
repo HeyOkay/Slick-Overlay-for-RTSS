@@ -1,0 +1,6 @@
+# OverlayEditor layouts are Windows-1252 text with CRLF line endings.
+# Keep them byte-for-byte: no line-ending conversion, no encoding changes.
+*.ovl -text diff
+
+*.png binary
+*.jpg binary
