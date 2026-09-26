@@ -49,17 +49,18 @@ All values come from RTSS's built-in hardware monitoring (HAL). MSI Afterburner 
 ## Requirements
 
 - RivaTuner Statistics Server 7.3.x with the **OverlayEditor** plugin (it ships with RTSS)
-- The **Adderley Bold** font installed in Windows. The font is third-party and **is not included** in this repository, so install your own licensed copy.
+- The **Adderley Bold** font, included in [`fonts/Adderley`](fonts/Adderley) (free, SIL Open Font License 1.1)
 
 ## Installation
 
 1. Download `SlickOverlay-vX.Y.Z.zip` from [Releases](../../releases) and unpack it.
-2. Copy all `.ovl` and `.png` files to
+2. Install the font: right-click `Adderley_Bold.ttf` and choose **Install for all users**. Restart RTSS if it was running.
+3. Copy all `.ovl` and `.png` files to
    `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`
    Every `.ovl` needs the `.png` with the same name next to it.
-3. In RTSS, open **Setup → Plugins**, enable **OverlayEditor.dll** and double-click it.
-4. Choose **Layouts → Load** and pick a layout.
-5. In the main RTSS window, set **On-Screen Display rendering mode** to **Raster 3D** and keep the **OSD zoom** at about **1**.
+4. In RTSS, open **Setup → Plugins**, enable **OverlayEditor.dll** and double-click it.
+5. Choose **Layouts → Load** and pick a layout.
+6. In the main RTSS window, set **On-Screen Display rendering mode** to **Raster 3D** and keep the **OSD zoom** at about **1**.
 
 ## Notes
 
@@ -82,8 +83,10 @@ Open the layout in OverlayEditor and double-click a layer.
 
 ## Credits
 
-Icons, panel graphics and layouts are original work for this project. Adderley is a third-party font and is not distributed here.
+Icons, panel graphics and layouts are original work for this project.
+
+Font: **Adderley** by gorohovskiy / [Dharma Type](http://dharmatype.com), licensed under the [SIL Open Font License 1.1](fonts/Adderley/OFL.txt). It is included unmodified.
 
 ## License
 
-[MIT](LICENSE)
+Overlays, graphics and docs: [MIT](LICENSE). The font in `fonts/` keeps its own license: [SIL OFL 1.1](fonts/Adderley/OFL.txt).

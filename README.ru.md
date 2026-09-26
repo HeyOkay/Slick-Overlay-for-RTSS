@@ -49,17 +49,18 @@
 ## Требования
 
 - RivaTuner Statistics Server 7.3.x с плагином **OverlayEditor** (идёт в комплекте с RTSS)
-- Шрифт **Adderley Bold**, установленный в Windows. Шрифт сторонний и **не входит** в репозиторий: установите свою лицензионную копию.
+- Шрифт **Adderley Bold**, лежит в [`fonts/Adderley`](fonts/Adderley) (бесплатный, SIL Open Font License 1.1)
 
 ## Установка
 
 1. Скачайте `SlickOverlay-vX.Y.Z.zip` из [Releases](../../releases) и распакуйте.
-2. Скопируйте все файлы `.ovl` и `.png` в папку
+2. Установите шрифт: правый клик по `Adderley_Bold.ttf` → **Установить для всех пользователей**. Если RTSS был запущен, перезапустите его.
+3. Скопируйте все файлы `.ovl` и `.png` в папку
    `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`
    Рядом с каждым `.ovl` должен лежать `.png` с тем же именем.
-3. В RTSS откройте **Setup → Plugins**, включите **OverlayEditor.dll** и откройте его двойным кликом.
-4. Выберите **Layouts → Load** и нужную раскладку.
-5. В главном окне RTSS поставьте **On-Screen Display rendering mode** в **Raster 3D**, а **масштаб OSD** держите около **1**.
+4. В RTSS откройте **Setup → Plugins**, включите **OverlayEditor.dll** и откройте его двойным кликом.
+5. Выберите **Layouts → Load** и нужную раскладку.
+6. В главном окне RTSS поставьте **On-Screen Display rendering mode** в **Raster 3D**, а **масштаб OSD** держите около **1**.
 
 ## Заметки
 
@@ -82,8 +83,10 @@
 
 ## Авторство
 
-Иконки, графика панелей и раскладки созданы для этого проекта. Adderley — сторонний шрифт, здесь он не распространяется.
+Иконки, графика панелей и раскладки созданы для этого проекта.
+
+Шрифт: **Adderley**, автор gorohovskiy / [Dharma Type](http://dharmatype.com), лицензия [SIL Open Font License 1.1](fonts/Adderley/OFL.txt). Включён без изменений.
 
 ## Лицензия
 
-[MIT](LICENSE)
+Оверлеи, графика и документация: [MIT](LICENSE). У шрифта в `fonts/` своя лицензия: [SIL OFL 1.1](fonts/Adderley/OFL.txt).

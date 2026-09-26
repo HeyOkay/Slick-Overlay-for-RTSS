@@ -8,4 +8,4 @@ First release.
 - FPS (current / avg / 1% low / 0.1% low), GPU and CPU stats, RAM, VRAM
 - Frametime graph (0–40 ms) with the graphics API, driver version
 - Frosted-glass background with rounded corners; original line icons
-- Adderley Bold font, tuned for Raster 3D rendering
+- Adderley Bold font (SIL OFL 1.1) bundled in `fonts/` and in the release zip, tuned for Raster 3D rendering
